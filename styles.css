@@ -1,0 +1,117 @@
+/*Estilos aplicados ao website Prototipando...*/
+
+/*Seletor Universal - seleciona todos os elementos da página e aplica estilos comuns padronizados*/
+*{
+    margin: 0; /*remove a margem padrão de todos os elementos*/
+    padding: 0; /*remove o padding de todos os elementos*/
+    box-sizing: border-box; /*inclui bordas e preenchimentos no calculo da largura e altura dos elementos*/
+}
+
+body{
+    font-family:Arial, sans-serif; /*Define a fonte da página como Arial, com uma alternativa de sans-serif*/
+    background-color: #FFFFFF; /*Define a cor de fund do body / corpo do html*/
+    color: rgb(5, 5, 5) /*Define a cor do texto com um tom suave de branco*/
+}
+
+/*Estilo do cabeçalho*/
+header{
+    background-color: #FF0000; /*Cor de fundo em hexadecimal*/
+    padding: 20px; 
+}
+header h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /*Alinha o texto do cabeçalho ao centro*/
+}
+
+header button{
+    right: 20px; /*Alinha o botão á direita, com 20px de ditância da borda direita da página */
+    top: 20px; /*Alinha o botão ao topo, com 20px de distância da borda superior*/
+    position: absolute; /*Posiciona o botão de forma absoluta com relação ao cabeçalho*/
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 25px; /*Define o espaço interno do botão em 10px (vertical) e 20px (horizontal)*/
+    border-radius: 5px; /*Arredonda os cantos do botão*/
+    border: none; /*Remove a borda padrão do botão*/
+    cursor: pointer; /*Define o cursor como um ponteiro ao passar sobre o botão*/
+}
+header section button{
+    right: 1110px; /*Alinha o botão á direita, com 20px de ditância da borda direita da página */
+    top: 20px; /*Alinha o botão ao topo, com 20px de distância da borda superior*/
+    position: absolute; /*Posiciona o botão de forma absoluta com relação ao cabeçalho*/
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 25px; /*Define o espaço interno do botão em 10px (vertical) e 20px (horizontal)*/
+    border-radius: 5px; /*Arredonda os cantos do botão*/
+    border: none; /*Remove a borda padrão do botão*/
+    cursor: pointer; /*Define o cursor como um ponteiro ao passar sobre o botão*/
+}
+
+header h3{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 30px;
+    text-align: center;
+}
+
+main img{
+    max-width: 550px; /*Define a largura máxima das imagens dentro da main como 150px*/
+}
+
+section{
+    margin: 30px; /*Define a margen superior e inferior das seções como 20px e 0 para as laterais*/
+}
+
+/*Estilo do rodapé / footer*/
+footer{
+    background-color: #FF0000;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; /*Alinha o texto do rodapé ao centro*/
+    bottom:0; /*Alinha o rodapé abaixo da página*/
+    position: absolute; /*Posiciona o rodapé de forma absoluta em relação ao body*/
+    width: 100%; /*Define a largura do rodapé como 100% da janela de visualização*/
+}
+/*==========================================================================================*/
+
+header section button{
+}
+
+footer section button{
+    right: 470px;
+    height: 100px;
+    background-color: #FF0000;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center; /*Alinha o texto do rodapé ao centro*/
+    bottom:0; /*Alinha o rodapé abaixo da página*/
+    position: absolute; /*Posiciona o rodapé de forma absoluta em relação ao body*/
+    width: 25%;
+}
+section h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+section h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header section{
+    background-color: #FF0000; /*Cor de fundo em hexadecimal*/
+    padding: 3px; 
+}
+main section img{
+    height: 100px;
+}
