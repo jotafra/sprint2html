@@ -19,13 +19,13 @@ header{
     padding: 20px; 
 }
 
-header h3{
+header h3{ /* texto "Página home" */
     font-size: 24px;
     font-weight: bold;
     text-align: center; /*Alinha o texto do cabeçalho ao centro*/
 }
 
-header button{
+header button{ /* Botão de login */
     right: 20px; /*Alinha o botão á direita, com 20px de ditância da borda direita da página */
     top: 20px; /*Alinha o botão ao topo, com 20px de distância da borda superior*/
     position: absolute; /*Posiciona o botão de forma absoluta com relação ao cabeçalho*/
@@ -39,7 +39,7 @@ header button{
     cursor: pointer; /*Define o cursor como um ponteiro ao passar sobre o botão*/
 }
 header section button{ /* Botão de cadastro */
-    right: 1350px; /*Alinha o botão á direita, com 20px de ditância da borda direita da página */
+    right: 1110px; /*Alinha o botão á direita, com 20px de ditância da borda direita da página */
     top: 20px; /*Alinha o botão ao topo, com 20px de distância da borda superior*/
     position: absolute; /*Posiciona o botão de forma absoluta com relação ao cabeçalho*/
     background-color: #FFFFFF;
@@ -63,6 +63,7 @@ main{
 }
 
 main img{
+    margin-top: 50px; /* Espaçamento entre o título e os botões */
     max-width: 550px; /*Define a largura máxima das imagens dentro da main como 150px*/
 }
 
@@ -81,35 +82,7 @@ footer{
     position: absolute; /*Posiciona o rodapé de forma absoluta em relação ao body*/
     width: 100%; /*Define a largura do rodapé como 100% da janela de visualização*/
 }
-/*========================= Página de login ====================================*/
 
-.login header section section{
-    right: 150px;
-}
-
-footer section button{ /* Botão de agendamento */
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente no centro */
-    left: 670px; /* Move 20 pixels para a direita */
-    text-align: center; /*Alinha o texto do rodapé ao centro*/
-    height: 100px;
-    background-color: #FF0000;
-    padding: 20px;
-    font-size: 25px;
-    font-weight: bold;
-    bottom:0; /*Alinha o rodapé abaixo da página*/
-    position: absolute; /*Posiciona o rodapé de forma absoluta em relação ao body*/
-    width: 15%;
-}
-
-header section{
-    background-color: #FF0000; /*Cor de fundo em hexadecimal*/
-    padding: 3px; 
-}
-
-main section section img{
-    max-width: 350px; /*Define a largura máxima das imagens dentro da main como 150px*/
-    position: relative;
-    top: -160px;  /* Move 10 pixels para baixo */
-    left: 20px; /* Move 20 pixels para a direita */
+footer p{
+    color: #000000;
 }

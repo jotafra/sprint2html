@@ -6,47 +6,36 @@
     <title>PÁGINA LOGIN</title>
 
     <!--Incluindo o arquivo de estilização-->
-    <link rel="stylesheet" href="styles.css" 
+    <link rel="stylesheet" href="styles_login.css">
   </head>
+
   <body>
-    <!--Tag semântica de cabeçalho-->
+
     <header>
-        <section id="login">
-          <button onclick="window.location.href='index.html'"> Home </button>
-        </section>
+      <button onclick="window.location.href='index.html'"> Home </button>  
+      <section>
+        <img src="senailogo2.png" alt="Logo SENAI">
+      </section>
     </header>
+
+    
     <main>
+      <div class="bloco_centro">
+        <div class="botões">
 
-      <section>
-        <section>
-          <img src="senailogo2.png" alt="Logo SENAI">
-        </section>
-      </section>
-
-      <section id="home">
-
-      </section>
-      <section>
-        <form id="formulario-registro">
-          <!--Entrada do nome-->
           <label for="nome"> Email/cpf: </label>
-          <input type="text" id="nome" name="nome" required/>
-
+          <input type="text" placeholder="Email/cpf" class="input-box"/>
+          <br>
           <label for="nome"> Senha: </label>
-          <input type="text" id="nome" name="nome" required/>
-          
-          <!--Botão para enviar o formulario-->
-          <input type="submit" value="Cadastrar">
-        </form>
-      </section>
-
-
+          <input type="text" placeholder="Senha" class="input-box"/>
+          <br>
+          <input type="submit" value="Cadastrar" class="input-box">
+        </div>
+      </div>
     </main>
 
     <footer>
-      <section>
-        <button onclick="window.location.href='agendamento.html'">Agendamento</button>
-      </section>
+        <button onclick="window.location.href='agendamento.html'"> AGENDAMENTO </button>
     </footer>
 
   </body>

@@ -6,17 +6,45 @@
     <title>PÁGINA LOGIN</title>
 
     <!--Incluindo o arquivo de estilização-->
-    <link rel="stylesheet" href="styles.css" 
+    <link rel="stylesheet" href="styles_cadastro.css" 
   </head>
   <body>
-    <!--Tag semântica de cabeçalho-->
     <header>
       <button onclick="window.location.href='index.html'">Home</button>
+      <section>
+        <img src="senailogo2.png" alt="Logo SENAI">
+      </section>
     </header>
 
-    <footer>
-      
-  </footer>
+    <h3> CADASTRO </h3>
+
+    <main>
+      <div class="bloco_centro">
+
+        <div class="botões">
+
+          <label for="nome"> Nome: </label>
+          <input type="text" placeholder="Nome" class="input-box"/>
+          <br>
+          <label for="Email"> E-mail: </label>
+          <input type="email" placeholder="Email" class="input-box"/>
+          <br>
+          <label for="cpf"> CPF: </label>
+          <input type="cpf" placeholder="CPF" class="input-box"/>
+          <br>
+          <label for="Senha"> Senha: </label>
+          <input type="password" placeholder="Senha" class="input-box"/>
+          <br>
+          <input type="submit" value="Cadastrar" class="input-box">
+
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer>  
+    </footer>
 
   </body>
 </html>
