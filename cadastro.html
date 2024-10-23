@@ -6,44 +6,41 @@
     <title>PÁGINA LOGIN</title>
 
     <!--Incluindo o arquivo de estilização-->
-    <link rel="stylesheet" href="styles_cadastro.css" 
+    <link rel="stylesheet" href="styles_index.css" 
   </head>
   <body>
-    <header>
-      <button onclick="window.location.href='index.html'">Home</button>
-      <section>
-        <img src="senailogo2.png" alt="Logo SENAI">
+    <header class="headerCad">
+      <section class="cadHomeBut">
+        <button onclick="window.location.href='index.html'">Home</button>
+      </section>
+      <section class="cadImage">
+        <img src="senaisplogo (1).png" alt="Logo SENAI">
       </section>
     </header>
 
-    <h3> CADASTRO </h3>
+    <section class="cadTitle">
+      <h3> CADASTRO </h3>
+    </section>
 
     <main>
-      <div class="bloco_centro">
-
-        <div class="botões">
-
-          <label for="nome"> Nome: </label>
-          <input type="text" placeholder="Nome" class="input-box"/>
-          <br>
-          <label for="Email"> E-mail: </label>
-          <input type="email" placeholder="Email" class="input-box"/>
-          <br>
-          <label for="cpf"> CPF: </label>
-          <input type="cpf" placeholder="CPF" class="input-box"/>
-          <br>
-          <label for="Senha"> Senha: </label>
-          <input type="password" placeholder="Senha" class="input-box"/>
-          <br>
-          <input type="submit" value="Cadastrar" class="input-box">
-
-        </div>
-
+      <div class="cadButtons">
+        <label for="nome"> NOME: </label>
+        <input type="text" placeholder="Nome" class="input-box-cad"/>
+        <br>
+        <label for="Email"> E-MAIL: </label>
+        <input type="email" placeholder="Email" class="input-box-cad"/>
+        <br>
+        <label for="cpf"> CPF: </label>
+        <input type="cpf" placeholder="CPF" class="input-box-cad"/>
+        <br>
+        <label for="Senha"> SENHA: </label>
+        <input type="password" placeholder="Senha" class="input-box-cad"/>
+        <br>
+        <input type="submit" value="Cadastrar" class="input-box-cad">
       </div>
-
     </main>
 
-    <footer>  
+    <footer class="cadFooter">  
     </footer>
 
   </body>
